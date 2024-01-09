@@ -1,0 +1,90 @@
+
+h1{
+    text-align: center;
+}
+
+.p1{
+    text-align: center;
+
+    
+}
+a{
+    text-decoration: none;
+}
+
+.register-button{
+    background-color: rgb(12, 125, 12);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: grab;
+    margin-left: 198px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: opacity 0.2s;
+    
+}
+.register-button:hover{
+    opacity: 0.7;
+ }
+ .register-button:active{
+     opacity: 0.4;
+ }
+ #fname{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    text-align: start;
+    margin-left: 50px;
+    
+ }
+ #lname{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    text-align: start;
+    margin-left: 30px;
+    text-indent: 4em;
+ }
+ #email{
+    padding-left: 30px;
+    padding-right: 235px;
+    padding-bottom: 10px;
+    text-align: start;
+    margin-left: 50px;
+ }
+
+#pword{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    text-align: start;
+    margin-left: 50px;
+    padding-right: 235px;
+}
+
+#cpword{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    text-align: start;
+    margin-left:50px;
+    padding-right: 235px;
+}
+ input[type='checkbox']{
+    margin-left: 50px;
+ }
+ body{
+    background-color: rgb(14, 14, 92);
+    ;
+ }
+ .center{
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 40vw;
+        background: azure;
+        border-radius: 10px;
+    
+}
+
